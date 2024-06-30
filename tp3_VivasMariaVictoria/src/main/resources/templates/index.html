@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Trbajo Practico 3</title>
-		<link rel="stylesheet" href="/src/main/resources/static/styles.css">
-	</head>
-	<body>
-		<header>
-			<h1>Programacion Visual</h1>
-			<nav>
-			<ol>
-			<li><a href="">Inicio semana 6</a></li>
-			<li><a href="">Paginas web</a></li>
-			<li><a href="">Arquitectura de las paginas web</a></li>
-			<li><a href="">Recursos</a></li>
-			</ol>
-		</nav>	
-		</header>
-		<div class="container">
-		<main class="main">
-		<section id="Inicio semana 6">
-		<h2>Objetivos de la semana6</h2>
-				<h3>En esta seccion se describira un poco de lo que se vio en la sexta semana y archivos con informacion del tema</h3>
-				<p>Conceptualizar la arquitectura de aplicaciones web en el contexto de las tecnologías usadas en la asignatura
-Conceptualizar que es un framework, que es spring framework
-Conceptualizar spring boot y contrastar sus aplicaciones con la configuración manual de spring framework
-Realizar una introducción al uso de la capa controller
-Realizar una introducción a HTML.</p>
-<ul>
-					<li>Aplicaciones Web</li>
-					<li>Arquitectura de las aplicaciones web</li>
-					<li>Framework-Spring Framework</li>
-				</ul>
-		</section>
-		<section id="Paginas web">
-		<h2>Aplicaciones web</h2>
-				<p>Es un software informatico alojado en un servidor web que permite generar de manera dinamica recursos hipermedia ante las solicitudes HTTP que realiza un cliente web.Los componentes basicos del modelo Cliente-Servidor</p>
-				<ol>
-					<li>Servidor web</li>
-					<li>Protocolo HTTP</li>
-					<li>Protocolo de comunicaciones</li>					
-				</ol>
-				<table>
-				<tr>
-				<td><h3>Servidor web</h3></td>
-				<td>Software que aloja aplicaciones web. Escucha las solicitudes del cliente y genera las respuestas. Gestiona la seguridad,concurrencia,gestion del ciclo de vida de la aplicacion y
-				 ofrece una APIpara realizar diversas transacciones tales como mensajeria,etc.</td>
-				</tr>
-				<tr>
-				<td><h3>Protocolo HTTP</h3></td>
-				<td>Protocolo de comunicaciones que define la manera en que se transfiere informacion en la WWW (Word Wide Web)</td>
-				</tr>
-				<tr>
-				<td><h3>Protocolo de comunicaciones</h3></td>
-				<td>Sistema de reglas que permiten la comunicacion entre dos o mas entidades para transmitir informacion. Las reglas definen la sintaxis, semantica, sincronizacion de la comunicacion
-				 y los mecanismos de recuperacion ante errores</td>
-				</tr>
-				</table>
-		</section>
-		<section id="Arquitectura de las paginas web">
-		<h2>En esta seccion se describirá un poco del tema arquitectura de las aplicaciones web</h2>
-		<p>El termino arquitectura de aplicaciones web hace referencia a tres cuestiones:</p>
-		<ol>
-					<li>El modelo de funcionamiento de la aplicacion web</li>
-					<li>La separacion de la aplicacion en secciones con tareas y/o objetivos comunes.</li>
-					<li>Las tecnologias para implementar el modelo de la aplicacion web y la forma de integrarlas.</li>					
-				</ol>
-		</section>
-		</main>
-		<aside id="Recursos">
-    <h2>Recursos Adicionales</h2>
-    <a href="https://virtual.unju.edu.ar" target="_blank"> <img alt="Error Cargando Imagen" src="/images/UnjuVirtual.bmp"></a>
-	</aside>
-		
-	
-		</div>
-		<footer>
-		<p>Informacion de contacto y Redes sociales</p>
-		<p>Correo oficial: virtual@unju.edu.ar</p>
-		<p>Facebook: <a href="https://www.facebook.com/unjuvirtual/" target="_blank">Unju virtual</a></p>
-		<p>Pagina Escuela de Minas: <a href="https://escmi.unju.edu.ar" target="_blank">EDM</a></p>
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo Práctico 3</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+			<a href="#" class="brand">Programación Visual</a>
+            <div class="container">
+                
+                <ul class="navbar-nav">
+                    <li><a href="/formulario">Formulario Cliente</a></li>
+                    <li><a href="#Paginas-web">Páginas web</a></li>
+                    <li><a href="#Arquitectura-de-las-paginas-web">Arquitectura de las páginas web</a></li>
+                    <li><a href="#Recursos">Recursos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container main-content">
+        <main class="main">
+            <section id="Inicio-semana-6">
+                <h2>Objetivos de la semana 6</h2>
+                <p>En esta sección se describirá un poco de lo que se vio en la sexta semana y archivos con información del tema:</p>
+                <ul>
+                    <li>Conceptualizar la arquitectura de aplicaciones web en el contexto de las tecnologías usadas en la asignatura.</li>
+                    <li>Conceptualizar qué es un framework, qué es Spring Framework.</li>
+                    <li>Conceptualizar Spring Boot y contrastar sus aplicaciones con la configuración manual de Spring Framework.</li>
+                    <li>Realizar una introducción al uso de la capa controller.</li>
+                    <li>Realizar una introducción a HTML.</li>
+                </ul>
+            </section>
+            <section id="Paginas-web">
+                <h2>Aplicaciones web</h2>
+                <p>Es un software informático alojado en un servidor web que permite generar de manera dinámica recursos hipermedia ante las solicitudes HTTP que realiza un cliente web. Los componentes básicos del modelo Cliente-Servidor son:</p>
+                <ol>
+                    <li>Servidor web</li>
+                    <li>Protocolo HTTP</li>
+                    <li>Protocolo de comunicaciones</li>
+                </ol>
+                <table>
+                    <tr>
+                        <td><h3>Servidor web</h3></td>
+                        <td>Software que aloja aplicaciones web. Escucha las solicitudes del cliente y genera las respuestas. Gestiona la seguridad, concurrencia, gestión del ciclo de vida de la aplicación y ofrece una API para realizar diversas transacciones tales como mensajería, etc.</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Protocolo HTTP</h3></td>
+                        <td>Protocolo de comunicaciones que define la manera en que se transfiere información en la WWW (World Wide Web).</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Protocolo de comunicaciones</h3></td>
+                        <td>Sistema de reglas que permiten la comunicación entre dos o más entidades para transmitir información. Las reglas definen la sintaxis, semántica, sincronización de la comunicación y los mecanismos de recuperación ante errores.</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="Arquitectura-de-las-paginas-web">
+                <h2>Arquitectura de las aplicaciones web</h2>
+                <p>El término arquitectura de aplicaciones web hace referencia a tres cuestiones:</p>
+                <ol>
+                    <li>El modelo de funcionamiento de la aplicación web.</li>
+                    <li>La separación de la aplicación en secciones con tareas y/o objetivos comunes.</li>
+                    <li>Las tecnologías para implementar el modelo de la aplicación web y la forma de integrarlas.</li>
+                </ol>
+            </section>
+        </main>
+        <aside id="Recursos">
+            <h2>Recursos Adicionales</h2>
+            <div class="resource">
+                <a href="https://virtual.unju.edu.ar" target="_blank">
+                    <img alt="Unju Virtual" src="/images/unju-virtual.png">
+                    <p>Visita Unju Virtual</p>
+                </a>
+            </div>
+            <div class="resource">
+                <a href="https://spring.io/projects/spring-boot" target="_blank">
+                    <img alt="Spring Boot" src="/images/spring-boot-logo.png">
+                    <p>Conoce más sobre Spring Boot</p>
+                </a>
+            </div>
+            <div class="resource">
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+                    <img alt="HTML" src="/images/html-logo.png">
+                    <p>Aprende HTML</p>
+                </a>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Información de contacto y Redes sociales</p>
+            <p>Correo oficial: virtual@unju.edu.ar</p>
+            <p>Facebook: <a href="https://www.facebook.com/unjuvirtual/" target="_blank">Unju virtual</a></p>
+            <p>Página Escuela de Minas: <a href="https://escmi.unju.edu.ar" target="_blank">EDM</a></p>
+        </div>
+    </footer>
+</body>
 </html>
